@@ -3,13 +3,14 @@ package com.tnsif.encapsulation;
 public class EncapsulationDemo {
 	
 	public static void main(String[] agrs) {
-		//TODO Auto-generated method sLub
+		//TODO Auto-generated method stub
 		
 		Encapsulation ob= new Encapsulation();//object creation
-		ob.name="suma";//calling the variables
-		ob.age=33;
-		ob.serialNum=22;
-		ob.show();
+		
+		ob.setAge(22);
+		ob.setName("ramya");
+		ob.setSerialNum(55);
+		System.out.println(ob);
 	}
 
 }
