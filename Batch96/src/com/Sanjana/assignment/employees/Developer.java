@@ -17,6 +17,7 @@ public class Developer extends Employee {
 		Domain = domain;
 	}
 
+	//implementing tostrings()
 	@Override
 	public String toString() {
 		return "Developer [Domain=" + Domain + "]";

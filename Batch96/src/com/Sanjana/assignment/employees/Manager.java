@@ -17,6 +17,7 @@ public class Manager extends Employee{
 		this.teamSize = teamSize;
 	}
 
+	//implementing tostrings()
 	@Override
 	public String toString() {
 		return "Manager [teamSize=" + teamSize + ", emp=" + emp + "]";

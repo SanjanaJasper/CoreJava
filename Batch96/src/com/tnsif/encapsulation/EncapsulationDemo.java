@@ -5,7 +5,8 @@ public class EncapsulationDemo {
 	public static void main(String[] agrs) {
 		//TODO Auto-generated method stub
 		
-		Encapsulation ob= new Encapsulation();//object creation
+		//object creation
+		Encapsulation ob= new Encapsulation();
 		
 		ob.setAge(22);
 		ob.setName("ramya");
